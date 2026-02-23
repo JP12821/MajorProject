@@ -13292,3 +13292,311 @@ Script Stack (0 frames) :
 [2026.02.20-19.49.47:953][405]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.02.20-19.49.47:953][405]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.20-19.49.47:953][405]AssetCheck: /Game/MajorProject/Niagara/NS_Sword Validating asset
+[2026.02.20-19.50.28:422][597]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: ================================================
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Total job queries 1,253, among them cache hits 178 (14.21%), DDC hits 527 (42.06%), Duplicates 45 (3.59%)
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Tracking 1,030 distinct input hashes that result in 834 distinct outputs (80.97%)
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: RAM used: 428.48 KiB of 819.20 MiB budget. Usage: 0.05%
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Shaders Compiled: 503
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Jobs assigned 503, completed 503 (100%)
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Average time worker was idle: 612.00 s
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 2.62 s
+[2026.02.20-21.49.40:994][597]LogShaderCompilers: Display: Job execution time: average 0.84 s, max 6.63 s
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 6.71
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Shader code size: average 27.858 KiB, min 1.877 KiB, max 195.96 KiB
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 309.36 s
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Jobs were issued in 498 batches (only local compilation was used), average 1.01 jobs/batch
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Average processing rate: 1.63 jobs/sec
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Total thread time: 243.042 s
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Total thread preprocess time: 20.506 s
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Percentage time preprocessing: 8.44%
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Effective parallelization: 0.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 3.27 sec, max 3.35 sec, min 3.19 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 3.08 sec, max 3.36 sec, min 2.81 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    2 times, average 2.41 sec, max 2.51 sec, min 2.32 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 2.16 sec, max 2.58 sec, min 1.65 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 2.01 sec, max 2.20 sec, min 1.77 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                               FNiagaraShader - 67.48% of total time (compiled  441 times, average 0.37 sec, max 3.80 sec, min 0.07 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 3.56% of total time (compiled    4 times, average 2.16 sec, max 2.58 sec, min 1.65 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 3.24% of total time (compiled    4 times, average 1.97 sec, max 2.29 sec, min 1.52 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 2.88% of total time (compiled    7 times, average 1.00 sec, max 1.07 sec, min 0.94 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 2.69% of total time (compiled    2 times, average 3.27 sec, max 3.35 sec, min 3.19 sec)
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: === Material stats ===
+[2026.02.20-21.49.40:995][597]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: Materials Translated:    161
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: Material Translation Only: 0.10 s (56%)
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (3%)
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: Material Cache Hits: 44 (27%)
+[2026.02.20-21.49.40:996][597]LogShaderCompilers: Display: ================================================
+[2026.02.20-21.49.41:028][597]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.20-21.49.41:030][597]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9160
+[2026.02.20-21.49.41:351][598]LogHttp: Warning: 0000060C670BF500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.20-21.49.41:351][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 0 (Too old connection (7202 seconds idle), disconnect it)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 1 (Connection 7 seems to be dead)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 2 (Closing connection)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 4 (Send failure: Connection was reset)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.20-21.49.41:352][599]LogHttp: Warning: 0000060C670BF500: libcurl info message cache 7 (Closing connection)
+[2026.02.20-21.49.41:972][600]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.20-21.49.41:976][600]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{352d08bb-82d6-4d76-ae79-01951c36d54f}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=655.28
+[2026.02.20-21.49.41:980][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.20-21.49.41:984][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.20-21.49.49:985][622]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.02.20-21.51.10:962][622]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.20-21.51.10:963][622]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9160
+[2026.02.20-21.51.11:836][623]LogHttp: Warning: 0000060C670B4600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.20-21.51.11:836][623]LogHttp: Warning: 0000060C670B4600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.20-21.51.11:836][623]LogHttp: Warning: 0000060C670B4600: libcurl info message cache 1 (Closing connection)
+[2026.02.20-21.51.12:179][625]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.20-21.51.12:184][625]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{352d08bb-82d6-4d76-ae79-01951c36d54f}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=941.22
+[2026.02.20-21.51.12:184][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.20-21.51.12:189][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.20-21.51.20:791][650]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.02.20-22.49.40:598][650]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.20-22.49.40:598][650]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9160
+[2026.02.20-22.49.41:230][652]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.20-22.49.41:234][652]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{352d08bb-82d6-4d76-ae79-01951c36d54f}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=393.03
+[2026.02.20-22.49.41:234][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.20-22.49.41:237][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.20-22.49.48:953][675]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2026.02.23-12.05.29:511][676]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63423'.
+[2026.02.23-12.05.29:529][676]LogUdpMessaging: Display: Added local interface '192.168.4.100' to multicast group '230.0.0.1:6666'
+[2026.02.23-12.06.07:918][281]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.23-12.06.07:959][281]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.02.23-12.06.07:959][281]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.02.23-12.06.07:971][281]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 10.754 ms (total: 268.772 ms)
+[2026.02.23-12.06.07:973][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.23-12.06.07:976][281]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.23-12.06.08:020][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043341s)
+[2026.02.23-12.06.08:020][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.043515s)
+[2026.02.23-12.06.08:125][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2026.02.23-12.06.08:145][281]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.02.23-12.06.08:163][281]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.23-12.06.08:163][281]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.23-12.06.08:163][281]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.23-12.06.08:163][281]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.23-12.06.08:167][281]LogWorldPartition: Display: WorldPartition initialize took 4.796 ms (total: 473.837 ms)
+[2026.02.23-12.06.08:167][281]LogPlayLevel: PIE: World Init took: (0.022437s)
+[2026.02.23-12.06.08:168][281]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.23-12.06.08:168][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.23-12.06.08:168][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.23-12.06.08:168][281]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.23-12.06.08:168][281]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.23-12.06.08:168][281]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.23-12.06.08:174][281]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.23-12.06.08:283][281]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.23-12.06.08:284][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.23-12.06.08:284][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.23-12.06.08:284][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.23-12.06.08:288][281]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2026.02.23-12.06.08:288][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2026.02.23-12.06.08:293][281]LogInit: FAudioDevice initialized with ID 56.
+[2026.02.23-12.06.08:293][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2026.02.23-12.06.08:293][281]LogAudio: Display: Audio Device (ID: 56) registered with world 'ThirdPersonMap'.
+[2026.02.23-12.06.08:293][281]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2026.02.23-12.06.08:293][281]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2026.02.23-12.06.08:313][281]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.23-12.06.08:342][281]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2026.02.23-12.06.08
+[2026.02.23-12.06.08:349][281]LogWorld: Bringing up level for play took: 0.034738
+[2026.02.23-12.06.08:356][281]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2026.02.23-12.06.08:364][281]PIE: Server logged in
+[2026.02.23-12.06.08:366][281]PIE: Play in editor total start time 0.408 seconds.
+[2026.02.23-12.06.44:843][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.23-12.06.44:844][234]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.02.23-12.06.44:844][234]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.44:848][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.44:848][234]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.02.23-12.06.44:856][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.23-12.06.44:868][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.44:937][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.23-12.06.44:937][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2026.02.23-12.06.44:937][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2026.02.23-12.06.44:940][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2026.02.23-12.06.44:954][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2026.02.23-12.06.45:022][235]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2026.02.23-12.06.51:422][384]LogSlate: Window 'Message' being destroyed
+[2026.02.23-12.06.51:434][384]Message dialog closed, result: Ok, title: Message, text: We have to apply level of detail changes to Sword before exiting the skeletal mesh editor.
+[2026.02.23-12.06.51:459][384]LogSkeletalMesh: Building Skeletal Mesh Sword...
+[2026.02.23-12.06.51:464][384]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Sword) ...
+[2026.02.23-12.06.51:527][384]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/MajorProject/Assets/Sword/Sword.Sword
+[2026.02.23-12.06.51:621][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.23-12.06.53:883][384]LogSlate: Window 'Save Content' being destroyed
+[2026.02.23-12.06.53:928][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.23-12.06.53:977][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MajorProject/Assets/Sword/Sword] ([1] browsable assets)...
+[2026.02.23-12.06.54:078][384]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MajorProject/Assets/Sword/Sword.Sword]
+[2026.02.23-12.06.54:078][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/MajorProject/Assets/Sword/Sword]
+[2026.02.23-12.06.54:095][384]LogSavePackage: Moving output files for package: /Game/MajorProject/Assets/Sword/Sword
+[2026.02.23-12.06.54:096][384]LogSavePackage: Moving '../../../../../../Users/Sampa/Documents/Unreal Projects/New folder/MajorProject2/Saved/SwordD0C43F6246F546A164D305B6335C4063.tmp' to '../../../../../../Users/Sampa/Documents/Unreal Projects/New folder/MajorProject2/Content/MajorProject/Assets/Sword/Sword.uasset'
+[2026.02.23-12.06.54:113][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.914 ms (total: 13.9 sec)
+[2026.02.23-12.06.54:230][384]LogStall: Shutdown...
+[2026.02.23-12.06.54:231][384]LogStall: Shutdown complete.
+[2026.02.23-12.06.54:696][384]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.54:699][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.54:782][384]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.54:783][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.55:834][384]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.56:045][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.56:104][384]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.56:105][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.56:776][384]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.56:777][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.57:618][384]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.57:866][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.57:920][384]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.06.57:920][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.06.58:649][384]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.00:987][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.01:031][384]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.01:031][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.01:229][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.02.23-12.07.01:229][384]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.01:231][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.01:834][384]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.01:834][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.01:983][384]LogSlate: Window 'MajorProject2 - Unreal Editor' being destroyed
+[2026.02.23-12.07.02:979][384]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.23-12.07.02:979][384]LogContentValidation: Enabled validators:
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.23-12.07.02:979][384]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.23-12.07.02:980][384]AssetCheck: /Game/MajorProject/Assets/Sword/Sword Validating asset
+[2026.02.23-12.07.03:413][384]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2026.02.23-12.07.03:626][384]Cmd: QUIT_EDITOR
+[2026.02.23-12.07.03:627][384]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.02.23-12.07.03:656][385]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.02.23-12.07.03:662][385]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.02.23-12.07.03:663][385]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.02.23-12.07.03:697][385]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:702][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:702][385]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2026.02.23-12.07.03:784][385]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.02.23-12.07.03:814][385]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.02.23-12.07.03:865][385]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:865][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:877][385]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:877][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:886][385]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:886][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:893][385]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:894][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:899][385]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:899][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:905][385]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:905][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:912][385]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:912][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:917][385]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:919][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:924][385]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:924][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:931][385]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:931][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:938][385]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:939][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:944][385]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:944][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:951][385]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:951][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:955][385]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:955][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:960][385]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:960][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:967][385]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:967][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:974][385]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:975][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:982][385]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:982][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:988][385]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:988][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:994][385]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:994][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.03:999][385]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.03:999][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:004][385]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.04:005][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:012][385]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.04:012][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:017][385]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.04:018][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:027][385]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.04:027][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:032][385]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2026.02.23-12.07.04:033][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.23-12.07.04:057][385]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.02.23-12.07.04:083][385]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2026.02.23-12.07.04:083][385]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2026.02.23-12.07.04:084][385]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2026.02.23-12.07.04:972][385]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.02.23-12.07.04:972][385]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.02.23-12.07.04:972][385]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2026.02.23-12.07.04:972][385]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.02.23-12.07.04:973][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.02.23-12.07.04:977][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.02.23-12.07.05:033][385]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.02.23-12.07.05:034][385]LogAudio: Display: Audio Device Manager Shutdown
+[2026.02.23-12.07.05:037][385]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.02.23-12.07.05:061][385]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.02.23-12.07.05:062][385]LogExit: Preparing to exit.
+[2026.02.23-12.07.05:280][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2026.02.23-12.07.05:289][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:291][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:309][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:316][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:316][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:317][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:318][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:318][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:318][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:318][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:319][385]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.05:319][385]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.23-12.07.06:800][385]LogEditorDataStorage: Deinitializing
+[2026.02.23-12.07.08:374][385]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.02.23-12.07.09:349][385]LogExit: Editor shut down
+[2026.02.23-12.07.09:391][385]LogExit: Transaction tracking system shut down
+[2026.02.23-12.07.12:155][385]LogExit: Object subsystem successfully closed.
+[2026.02.23-12.07.12:268][385]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.02.23-12.07.13:306][385]LogMemoryProfiler: Shutdown
+[2026.02.23-12.07.13:308][385]LogNetworkingProfiler: Shutdown
+[2026.02.23-12.07.13:308][385]LoadingProfiler: Shutdown
+[2026.02.23-12.07.13:308][385]LogTimingProfiler: Shutdown
+[2026.02.23-12.07.15:600][385]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.02.23-12.07.15:622][385]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2026.02.23-12.07.15:624][385]LogNFORDenoise: NFORDenoise function shutting down
+[2026.02.23-12.07.15:626][385]RenderDocPlugin: plugin has been unloaded.
+[2026.02.23-12.07.15:687][385]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.02.23-12.07.15:687][385]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB5229211-4565-C784-CBFE-D1B06F91F11E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=269eeffd45108d6f936f62b8cdde29ee%7Caf0eb5186f5f4c378b9d1d918229c08f%7Ccca378e2-d087-457c-9bb9-2d218bd10c0e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.02.23-12.07.15:742][385]LogXGEController: Cleaning working directory: C:/Users/Sampa/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.02.23-12.07.15:800][385]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.02.23-12.07.15:800][385]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.02.23-12.07.15:804][385]LogPakFile: Destroying PakPlatformFile
+[2026.02.23-12.07.17:617][385]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.02.23-12.07.17:777][385]LogExit: Exiting.
+[2026.02.23-12.07.17:897][385]Log file closed, 02/23/26 12:07:17
